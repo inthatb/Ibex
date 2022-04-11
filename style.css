@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+table{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+td{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+#dev{
+    margin-top: 2rem;
+}

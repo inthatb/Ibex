@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+
+        <p id="word-list">
+            word list
+        </p>
+
+        <table id="grid">
+            <tr id="row-1"></tr>
+            <tr id="row-2"></tr>
+            <tr id="row-3"></tr>
+            <tr id="row-4"></tr>
+            <tr id="row-5"></tr>
+        </table>
+
+        <p id="question">wait...</p>
+    </main>
+
+
+    <div id="buttons">
+        <button id="match" onclick='checkMatch(true)'>MATCH</button>
+        <button id="no-match" onclick='checkMatch(false)'>NO MATCH</button>
+        <button id="true" onclick='checkAnswer(true)'>TRUE</button>
+        <button id="false" onclick='checkAnswer(false)'>FALSE</button>
+    </div>
+
+
+    <div id="dev">
+        <button onclick="generateDotGrid()">Generate</button>
+        <button onclick="changeOneDot()">Change</button>
+        <button onclick="restart()">Restart</button>
+    </div>
+
+</body>
+
+</html>
